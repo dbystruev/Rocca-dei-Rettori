@@ -18,7 +18,6 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate, CLLocationM
     /// Rocca dei Rettori's coordinate
     let center = CLLocationCoordinate2D(latitude: 41.129437, longitude: 14.782375)
     
-    
     /// Manager for location related events
     var locationManager: CLLocationManager! = nil
     
@@ -30,6 +29,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate, CLLocationM
     
     /// Double gesture recognizer for the map view
     var doubleTapGesture: UITapGestureRecognizer!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
